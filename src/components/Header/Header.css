@@ -1,0 +1,131 @@
+.header input {
+  outline: none;
+  padding: 5px 36px;
+  border-radius: 5px;
+  border: 1px solid #44444a;
+  background-color: #44444a;
+  color: #fff;
+}
+
+.search-input input::placeholder {
+  color: #fff !important;
+}
+.header {
+  background-color: #2b2b37;
+  padding: 15px 5px !important;
+  width: 100%;
+}
+
+.header .search-input {
+  position: relative;
+}
+
+.header .search-input svg {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #fff;
+}
+
+.header .navbar-collapse {
+  justify-content: end;
+}
+
+.header .navbar-collapse svg {
+  font-size: 20px;
+}
+.header .icon {
+  background-color: gainsboro;
+  border-radius: 50px;
+  width: 29px;
+  height: 29px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header .icon div {
+  height: 8px;
+  width: 8px;
+  background-color: red;
+  border-radius: 50px;
+  position: absolute;
+  right: 7px;
+  top: 4px;
+}
+
+.header .icon {
+  position: relative;
+}
+
+.header .navbar-toggler {
+  background-color: gainsboro;
+}
+
+.header .navbar-collapse .header-right-collapse {
+  display: none;
+}
+.header .header-right {
+  display: none;
+}
+.header .navbar-toggler {
+  display: none;
+}
+
+.header .navbar-toggler {
+  background-color: transparent;
+  border: none;
+}
+
+.header .navbar-toggler svg {
+  color: black;
+}
+
+.header .navbar-collapse:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 350px) {
+  .header input {
+    width: -webkit-fill-available;
+  }
+  .header .search-input {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header .search-input {
+    width: 150px;
+  }
+  .header .search-input input {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header .navbar-collapse .header-right-collapse {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0 10px;
+  }
+  .header .navbar-toggler {
+    display: block;
+  }
+  .header .header-right-container {
+    display: none;
+  }
+}
+@media screen and (min-width: 500px) {
+  .header .header-right {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+  }
+}
+
+@media screen and (min-width: 821px) {
+  .header .header-right-container {
+    width: 100%;
+  }
+}

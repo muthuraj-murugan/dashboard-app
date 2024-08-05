@@ -1,0 +1,18 @@
+canvas {
+  height: 330px !important;
+  width: 100% !important;
+  background-color: #2b2b37;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  canvas {
+    height: 200px !important;
+    width: 100% !important;
+    background-color: #2b2b37;
+    padding: 10px;
+    border-radius: 5px;
+    padding-top: 50px;
+  }
+}

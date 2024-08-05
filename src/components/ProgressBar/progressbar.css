@@ -1,0 +1,40 @@
+.completed {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+
+.outer {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.inner {
+  height: 50px;
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-circle .result {
+  font-weight: 700;
+}
+
+/* .progress-circle circle {
+  fill: none;
+  stroke: url(#grad1);
+  stroke-width: 12px;
+  stroke-dasharray: 450;
+  stroke-dashoffset: 80;
+} */
+.progress-circle {
+  position: relative;
+}
+.progress-circle svg {
+  position: absolute;
+  top: 0;
+}

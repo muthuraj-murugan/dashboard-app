@@ -1,0 +1,13 @@
+.dashboard {
+  padding: 0 5px;
+}
+
+.dashboard .title {
+  margin: 20px 0;
+  color: #fff;
+}
+
+.dashboard .title h2 {
+  font-size: 25px;
+  font-weight: 600;
+}

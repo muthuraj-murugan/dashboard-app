@@ -1,0 +1,77 @@
+.sidebar {
+  /* height: 100%; */
+  width: 60px;
+  background-color: #2b2b37;
+  position: relative;
+}
+.sidebar .logo svg {
+  font-size: 35px;
+  color: rgb(0, 96, 165);
+}
+
+.sidebar .logo {
+  text-align: center;
+  width: 100%;
+  height: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar ul {
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 25px;
+  margin-top: 25px;
+}
+.sidebar li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.sidebar li svg {
+  font-size: 25px;
+  color: #fff;
+}
+
+.sidebar .active svg {
+  color: rgb(0, 96, 165);
+  border: none;
+}
+
+.sidebar .active {
+  border-left: 4px solid rgb(0, 96, 165);
+  height: 30px;
+}
+
+.sidebar li:hover svg {
+  color: rgb(0, 96, 165);
+}
+.pad-left {
+  padding-left: 4px;
+}
+
+.sidebar .log-out svg {
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sidebar .log-out {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  .sidebar {
+    width: 40px;
+  }
+
+  .sidebar li svg,
+  .sidebar .log-out svg {
+    font-size: 20px;
+  }
+}

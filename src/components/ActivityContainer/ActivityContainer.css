@@ -1,0 +1,81 @@
+.activitycontainer-right {
+  background-color: #2b2b37;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+
+.activitycontainer-right .buttons p {
+  margin: 0;
+  color: #f2f2f5;
+  margin-left: 10px;
+}
+.activitycontainer-right .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.activitycontainer-right .buttons .target {
+  background: #7b3434;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  padding: 13px;
+  color: #ff6527;
+}
+
+.activitycontainer-right .buttons .arrow-btn svg {
+  height: 20px;
+  width: 20px;
+  background-color: #f2f2f5;
+  border-radius: 50px;
+}
+
+.chart .chart-header {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 15px;
+  align-items: center;
+}
+
+.chart .chart-header p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.chart-header button {
+  border-radius: 50px;
+  background-color: gainsboro;
+  color: #2b2b37;
+  border: none;
+  font-size: 10px;
+}
+
+.chart-header .dropdown-item {
+  font-size: 10px;
+}
+
+.chart-header .btn:hover,
+.chart-header .btn:active,
+.chart-header .btn.show,
+.chart-header .dropdown-item:active {
+  color: #2b2b37 !important;
+  background-color: gainsboro !important;
+  border: none !important;
+}
+
+.chart-header .dropdown-menu {
+  min-width: 4rem !important;
+  color: #2b2b37;
+  background-color: gainsboro;
+}
